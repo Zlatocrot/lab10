@@ -5,18 +5,22 @@
 
 double fa(double x) 
 {
+    double y;
     if (x <= 3)
     {
-        return x * x - 3 * x + 9;
+        y = x * x - 3 * x + 9;
     }
     else
     {
-        return 1.0 / (x * x * x + 3);
+        y = 1.0 / (x * x * x + 3);
     }
+    return y;
 }
 double fb(double x)
 {
-    return x * exp(sin(x * x));
+    double y;
+    y = x * exp(sin(x * x));
+    return y;
 }
 int prac1(double fa, double fb, char choice)
 {
@@ -49,8 +53,10 @@ double sin_n(double x, int N)
     double sum = 0.0;
     double term = x;
 
-    for (int k = 1; k <= N; k++) {
-        if (k > 1) {
+    for (int k = 1; k <= N; k++) 
+    {
+        if (k > 1) 
+        {
             int idx = 2 * k - 1;
             term = -term * x * x / ((idx - 1) * idx);
         }

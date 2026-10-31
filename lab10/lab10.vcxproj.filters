@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lab10.cpp">
+    <ClCompile Include="lab10.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

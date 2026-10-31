@@ -139,7 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lab10.cpp">
+    <ClCompile Include="lab10.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">  _CRT_SECURE_NO_DEPRECATE </PreprocessorDefinitions>
     </ClCompile>
   </ItemGroup>

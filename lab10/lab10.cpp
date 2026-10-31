@@ -128,9 +128,9 @@ int main() {
     char repeat;
 
     do {
-        printf("--- Задание 1: Вычисления для двух функций ---\n\n");
+        printf("___Задание 1: Вычисления для двух функций___\n\n");
         printf("Введите значение x: ");
-        if (scanf("%lf", &x) != 1) break;
+        scanf("%lf", &x);
 
         printf("\n");
         printf("fa(x)=%lf , fb(x)=%lf\n\n", fa(x), fb(x));
@@ -149,7 +149,7 @@ int main() {
         printf("Выберите пункт меню (1-5): ");
 
         scanf("%d", &choice);
-        printf("\n--- Результат выбора ---\n");
+        printf("\n___Результат выбора___\n");
         prac1(fa(x), fb(x), choice);
 
         printf("\nПродолжить работу? (y - да, n - нет): ");
@@ -161,7 +161,7 @@ int main() {
 
     double eps;
     int maxN;
-    printf("--- Задание 2: Вычисление sin(x) тремя способами ---\n\n");
+    printf("___Задание 2: Вычисление sin(x) тремя способами___\n\n");
 
     printf("Введите значение x (в радианах, например, 0.7854): ");
     scanf("%lf", &x);
